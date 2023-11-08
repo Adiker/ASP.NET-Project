@@ -1,0 +1,14 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Site2.Master" AutoEventWireup="true" CodeBehind="NestedMasterPage2.master.cs" Inherits="WebApplication1.NestedMasterPage2" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="RegisterHead" runat="server">
+    
+        <asp:ContentPlaceHolder ID="RegisterHead" runat="server">
+            <link rel="stylesheet" type="text/css" href="css/register.css" /><title>Strona rejestracji</title>
+        </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="RegisterContent" runat="server">
+    <asp:ContentPlaceHolder ID="RegisterContent" runat="server">
+        
+    </asp:ContentPlaceHolder>
+</asp:Content> 
+
+

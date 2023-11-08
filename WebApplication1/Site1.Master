@@ -1,0 +1,32 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="WebApplication1.Site1" %>
+
+<!DOCTYPE html>
+<html lang="pl" dir="ltr">
+<head runat="server">
+    <title>Projekt strony</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <header>
+            <asp:ContentPlaceHolder ID="HeaderContent" runat="server">
+                Krótki opis moich ulubionych klubów piłkarskich
+            </asp:ContentPlaceHolder>
+        </header>
+         <asp:ContentPlaceHolder ID="NavbarContent" runat="server">
+
+         </asp:ContentPlaceHolder>
+        <div>
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+        AOS.init();
+        </script>
+</body>
+</html>

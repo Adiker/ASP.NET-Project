@@ -1,0 +1,23 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="NestedMasterPage1.master.cs" Inherits="WebApplication1.NestedMasterPage1" %>
+
+
+ <asp:Content ID="navbar" ContentPlaceHolderID="NavbarContent" runat="server">
+
+            <div class="navbar">
+                <a class="active" href="#">Początek strony</a>
+                <a href="#lech">Lech Poznań</a>
+                <a href="#barca">F.C. Barcelona</a>
+                <a href="#juve">Juventus F.C.</a>
+                <a href="#milan">A.C. Milan</a>
+                <a href="#manchester">Manchester United</a>
+                <a href="#napoli">SSC Napoli</a>
+            </div>
+                </asp:Content>
+            <asp:Content ID="main" ContentPlaceHolderID="MainContent" runat="server">
+               <asp:ContentPlaceHolder ID="MainContent" runat="server">
+
+            </asp:ContentPlaceHolder>
+            
+            </asp:Content>
+
+           
