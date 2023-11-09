@@ -63,5 +63,6 @@ Manchester United jest marką światową ocenianą przez „Forbes” na 3,69 mi
       Società Sportiva Calcio Napoli – włoski klub piłkarski z siedzibą w Neapolu, po sześciu latach przerwy powrócił do rozgrywek Serie A w sezonie 2007/2008. Napoli, pomimo problemów finansowych i trwającego od wielu lat kryzysu, znajduje się wśród klubów z największą liczbą fanów we Włoszech, związane jest to także z legendą klubu Diego Maradoną, uważanym za jednego z najlepszych piłkarzy w historii. SSC Napoli zostało założone w sierpniu 2004 pod nazwą Napoli Soccer przez Aurelio de Laurentiisa, znanego producenta filmowego, po bankructwie klubu SSC Napoli. Obecnie kapitanem Napoli jest Lorenzo Insigne.
     </div>
    </asp:Content>
+
     
     

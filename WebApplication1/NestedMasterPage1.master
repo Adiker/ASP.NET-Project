@@ -5,6 +5,8 @@
 
             <div class="navbar">
                 <a class="active" href="#">Początek strony</a>
+                <a class="active" href="register.aspx" style="margin-top:100px;">Powrót do strony rejestracji</a>
+                <a class="active" href="login.aspx" style="margin-top:200px">Powrót do strony logowania</a>               
                 <a href="#lech">Lech Poznań</a>
                 <a href="#barca">F.C. Barcelona</a>
                 <a href="#juve">Juventus F.C.</a>

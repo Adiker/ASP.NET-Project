@@ -77,21 +77,18 @@ img{
 }
 .active{
   background-color: steelblue;
-  color: black;
   position: fixed;
-  bottom: 1;
   left: 0;
-  width: 60px;
   height: 23px;
-  text-align: center;
+
 }
+
 footer{
   background-color: peru;
   width: 350px;
   font-size: 20px;
-  text-align: right;
   position: fixed;
-  bottom: 0;
-  right: 0;
+  bottom: 30px;
+  right: 30px;
   text-align: center;
 }

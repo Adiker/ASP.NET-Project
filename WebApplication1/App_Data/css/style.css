@@ -1,0 +1,94 @@
+
+body{
+  animation-name: fade;
+  animation-duration: 3s;
+  background-color: beige;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+}
+@keyframes fade {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+header{
+  text-align:center;
+  font-size: 100px;
+}
+p{
+  text-align: justify;
+  width:50%;
+}
+h1{
+  text-align: center;
+  width:50%;
+}
+img{
+    width: 50%;
+    object-fit: cover;
+}
+.main{
+  display: grid;
+  justify-items: center;
+  height: 100%;
+  width: 100%;
+  grid-gap: 10px;
+  grid-template-areas: "lech"
+                        "barca"
+                        "juve"
+                        "milan"
+                        "manchester"
+                        "napoli";
+}
+#lech{
+  grid-area: lech;
+}
+#barca{
+  grid-area: barca;
+}
+#juve{
+  grid-area: juve;
+}
+#milan{
+  grid-area: milan;
+}
+#manchester{
+  grid-area: manchester;
+}
+#napoli{
+  grid-area: napoli;
+}
+
+.navbar{
+  overflow: hidden;
+  background-color: forestgreen;
+  display: flex;
+  justify-content: center;
+}
+.navbar a {
+  color: white;
+  text-align: center;
+  padding: 30px 60px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.navbar a:hover{
+  background-color: lightgray;
+  color: black;
+}
+.active{
+  background-color: steelblue;
+  position: fixed;
+  left: 0;
+  height: 23px;
+
+}
+
+footer{
+  background-color: peru;
+  width: 350px;
+  font-size: 20px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  text-align: center;
+}

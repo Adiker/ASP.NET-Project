@@ -1,0 +1,56 @@
+/* Styl dla strony rejestracji */
+
+h1{
+    font-size: 24px;
+    text-align: center;
+}
+
+.register-container{
+    margin-top:300px;
+}
+.registration-form {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 50px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.textbox{
+    padding: 100px;
+}
+
+#lblError {
+    font-weight: bold;
+}
+
+#lblSuccess {
+    font-weight: bold;
+    color: green;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.button {
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}

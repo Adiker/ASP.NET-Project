@@ -67,16 +67,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\css\login.css" />
+    <Content Include="App_Data\css\register.css" />
+    <Content Include="App_Data\css\style.css" />
     <Content Include="App_Data\Database1.mdf" />
     <Content Include="App_Data\Database1_log.ldf">
       <DependentUpon>Database1.mdf</DependentUpon>
     </Content>
     <Content Include="login.aspx" />
-    <Content Include="login.css" />
     <Content Include="register.aspx" />
-    <Content Include="register.css" />
     <Content Include="resettable.sql" />
-    <Content Include="style.css" />
     <Content Include="Web.config" />
     <Content Include="main.aspx" />
   </ItemGroup>
