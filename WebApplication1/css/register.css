@@ -1,4 +1,9 @@
-/* Styl dla strony rejestracji */
+body{
+    background-color: rgb(212, 163, 26);
+    font-family: Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
 
 h1{
     font-size: 24px;

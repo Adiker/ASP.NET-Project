@@ -1,12 +1,12 @@
 body {
-    background-color: #f4f4f4;
+    background-color: rgb(173, 165, 41);
     font-family: Verdana, sans-serif;
     margin: 0;
     padding: 0;
 }
 
 .login-container {
-    background-color: #ffffff;
+    background-color: rgb(216, 25, 57);
     width: 300px;
     margin: 0 auto;
     padding: 50px;
