@@ -7,12 +7,12 @@
                 <a class="active" href="#">Początek strony</a>
                 <a class="active" href="register.aspx" style="margin-top:100px;">Powrót do strony rejestracji</a>
                 <a class="active" href="login.aspx" style="margin-top:200px">Powrót do strony logowania</a>               
-                <a href="#lech">Lech Poznań</a>
-                <a href="#barca">F.C. Barcelona</a>
-                <a href="#juve">Juventus F.C.</a>
-                <a href="#milan">A.C. Milan</a>
-                <a href="#manchester">Manchester United</a>
-                <a href="#napoli">SSC Napoli</a>
+                <a href="#trackmania">TrackMania Nations Forever</a>
+                <a href="#wiedzmin">Wiedźmin 3: Dziki Gon</a>
+                <a href="#rdr2">Red Dead Redemption 2</a>
+                <a href="#gtav">Grand Theft Auto V</a>
+                <a href="#hl2">Half-Life 2</a>
+                <a href="#cs2">Counter-Strike 2</a>
             </div>
                 </asp:Content>
             <asp:Content ID="main" ContentPlaceHolderID="MainContent" runat="server">

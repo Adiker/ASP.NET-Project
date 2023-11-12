@@ -13,6 +13,7 @@ body{
 header{
   text-align:center;
   font-size: 100px;
+  margin-bottom: 30px;
 }
 p{
   text-align: justify;
@@ -32,30 +33,30 @@ img{
   height: 100%;
   width: 100%;
   grid-gap: 10px;
-  grid-template-areas: "lech"
-                        "barca"
-                        "juve"
-                        "milan"
-                        "manchester"
-                        "napoli";
+  grid-template-areas: "trackmania"
+                        "wiedzmin"
+                        "rdr2"
+                        "gtav"
+                        "hl2"
+                        "cs2";
 }
-#lech{
-  grid-area: lech;
+#trackmania{
+  grid-area: trackmania;
 }
-#barca{
-  grid-area: barca;
+#wiedzmin{
+  grid-area: wiedzmin;
 }
-#juve{
-  grid-area: juve;
+#rdr2{
+  grid-area: rdr2;
 }
-#milan{
-  grid-area: milan;
+#gtav{
+  grid-area: gtav;
 }
-#manchester{
-  grid-area: manchester;
+#hl2{
+  grid-area: hl2;
 }
-#napoli{
-  grid-area: napoli;
+#cs2{
+  grid-area: cs2;
 }
 
 .navbar{
