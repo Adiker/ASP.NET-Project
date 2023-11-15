@@ -1,17 +1,35 @@
+body {
+    background-image: url("/img/reg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
 h1{
     font-size: 24px;
     text-align: center;
 }
 
 .register-container{
-    margin-top:300px;
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 300px;
+    margin: 400px auto;
+    padding: 50px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    backdrop-filter: blur(5px);
 }
 .registration-form {
     max-width: 300px;
     margin: 0 auto;
     padding: 50px;
-    border: 1px solid #ccc;
-    background-color: #f9f9f9;
     border-radius: 5px;
 }
 
@@ -30,12 +48,14 @@ h1{
 
 input[type="text"],
 input[type="password"] {
+    background-color: rgba(255, 255, 255, 0.4);
     width: 100%;
     padding: 10px;
     margin: 10px 0;
     border: 1px solid #ccc;
     border-radius: 5px;
     display: inline-block;
+    backdrop-filter: blur(5px);
 }
 
 .button {
@@ -47,8 +67,15 @@ input[type="password"] {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    backdrop-filter: blur(5px);
 }
 
 .button:hover {
     background-color: #0056b3;
+}
+
+.register-container:hover {
+    transform: scale(1.1);
+    transform-origin: 0% 0;
 }

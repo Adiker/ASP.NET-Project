@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html lang="pl" dir="ltr">
 <head runat="server">
-    <title>Moje ulubione gry na PC</title>
+    <title>Gry na PC</title>
     <link rel="stylesheet" href="css/style.css" />
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -12,7 +12,7 @@
     <form id="form1" runat="server">
         <header>
             <asp:ContentPlaceHolder ID="HeaderContent" runat="server">
-                Krótki opis moich ulubionych gier na PC
+                Opis kilku gier na PC
             </asp:ContentPlaceHolder>
         </header>
          <asp:ContentPlaceHolder ID="NavbarContent" runat="server">
@@ -30,7 +30,7 @@
 
         </script>
     <footer>
-        Stworzył Adam Wandelt
+        Made by Adam Wandelt®
     </footer>
 </body>
 </html>

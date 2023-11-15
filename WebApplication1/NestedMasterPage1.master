@@ -4,15 +4,19 @@
  <asp:Content ID="navbar" ContentPlaceHolderID="NavbarContent" runat="server">
 
             <div class="navbar">
-                <a class="active" href="#">Początek strony</a>
-                <a class="active" href="register.aspx" style="margin-top:100px;">Powrót do strony rejestracji</a>
-                <a class="active" href="login.aspx" style="margin-top:200px">Powrót do strony logowania</a>               
-                <a href="#trackmania">TrackMania Nations Forever</a>
-                <a href="#wiedzmin">Wiedźmin 3: Dziki Gon</a>
-                <a href="#rdr2">Red Dead Redemption 2</a>
-                <a href="#gtav">Grand Theft Auto V</a>
-                <a href="#hl2">Half-Life 2</a>
-                <a href="#cs2">Counter-Strike 2</a>
+                <div class="active">
+                <a href="main.aspx#">Początek strony</a>
+                <a href="register.aspx">Powrót do strony rejestracji</a>
+                <a href="login.aspx">Powrót do strony logowania</a>
+                <a href="sources.aspx">Źródła</a>
+                <a href="about.aspx">Cel strony</a>
+                </div>
+                <a href="main.aspx#trackmania">TrackMania Nations Forever</a>
+                <a href="main.aspx#wiedzmin">Wiedźmin 3: Dziki Gon</a>
+                <a href="main.aspx#rdr2">Red Dead Redemption 2</a>
+                <a href="main.aspx#gtav">Grand Theft Auto V</a>
+                <a href="main.aspx#hl2">Half-Life 2</a>
+                <a href="main.aspx#hzd">Horizon: Zero Dawn</a>
             </div>
                 </asp:Content>
             <asp:Content ID="main" ContentPlaceHolderID="MainContent" runat="server">

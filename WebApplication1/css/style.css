@@ -55,8 +55,8 @@ img{
 #hl2{
   grid-area: hl2;
 }
-#cs2{
-  grid-area: cs2;
+#hzd{
+  grid-area: hzd;
 }
 
 .navbar{
@@ -76,12 +76,24 @@ img{
   background-color: lightgray;
   color: black;
 }
+
 .active{
+  display: flex;
+  flex-direction: column;
   background-color: steelblue;
   position: fixed;
   left: 0;
-  height: 23px;
+  width: 250px;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
 
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
 }
 
 footer{
@@ -89,7 +101,7 @@ footer{
   width: 350px;
   font-size: 20px;
   position: fixed;
-  bottom: 30px;
-  right: 30px;
+  bottom: 0px;
+  right: 0px;
   text-align: center;
 }

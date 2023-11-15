@@ -40,10 +40,10 @@ Grand Theft Auto V cieszy się wysoką popularnością na świecie wśród gracz
       <img src="img/tlohl2.jpg">
       <p>Half-Life 2 (HL2) – strzelanka pierwszoosobowa osadzona w świecie science-fiction wydana 16 listopada 2004. Jest kontynuacją gry Half-Life i tak jak ona, została stworzona przez studio Valve Corporation. Pojawienie się gry na rynku było zwieńczeniem pięcioletniego cyklu wydawniczego, podczas którego porcje kodu źródłowego gry przeciekały do Internetu. Gra niemal jednomyślnie zdobyła uznanie czasopism branżowych i życzliwe przyjęcie przez krytyków, zdobywając w roku 2004 ponad 35 tytułów „Gra Roku”. Pierwotnie gra dostępna była tylko dla komputerów domowych działających pod kontrolą systemu operacyjnego Microsoft Windows, lecz do chwili obecnej pojawiły się porty dla gry na systemy OS X, Linux, konsolę Xbox, a w roku 2007 wydana została na platformy Xbox 360 oraz PlayStation 3. </p>
     </div>
-    <div id="cs2" class="main" data-aos="fade-in" data-aos-offset="500" data-aos-duration="1000">
-      <h1>Counter Strike 2</h1>
-      <img src="img/tlocs2.jpg">
-        <p>Counter-Strike 2 jest pełnoprawną drugą odsłoną cyklu niezwykle popularnych strzelanek, którego korzenie sięgają 2000 roku. Produkcja została opracowana przez sprawującą pieczę nad marką firmę Valve, a wydano ją jako darmową aktualizację do wypuszczonej w 2012 roku gry Counter-Strike: Global Offensive (CSGO). W Counter-Strike 2 akcję oglądamy z perspektywy pierwszej osoby (FPP). Produkcja czerpie garściami z dorobku serii. W trakcie zabawy gracze zostają podzieleni na dwie drużyny – terrorystów oraz siły specjalne – które rywalizują ze sobą, realizując cele determinowane przez tryb gry (jak eliminacja wszystkich wrogów, uratowanie zakładników bądź rozbrojenie bomby). Za swoje osiągnięcia na polu walki poszczególni członkowie zespołów są nagradzani walutą, którą mogą przeznaczyć na coraz lepsze wyposażenie. A skoro o ekwipunku mowa – gra pozwala zaimportować wszystkie przedmioty zdobyte w CS:GO.</p>
+    <div id="hzd" class="main" data-aos="fade-in" data-aos-offset="500" data-aos-duration="1000">
+      <h1>Horizon: Zero Dawn</h1>
+      <img src="img/tlohzd.jpg">
+        <p>Horizon: Zero Dawn to fabularna gra akcji stworzona przez studio Guerrilla Games, a wydana przez Sony Interactive Entertainment 28 lutego 2017 roku na konsoli PlayStation 4. Gracz wciela się w Aloy, łowczynię żyjącą w świecie opanowanym przez maszyny, próbującą poznać swoją przeszłość. Do dyspozycji gracza oddano włócznię, bronie dystansowe oraz możliwość skradania się. Drzewko rozwoju zapewnia dostęp do nowych umiejętności i premii. Gracz może przemierzać otwarty świat, w którym odkrywa nowe lokacje i może wykonywać zadania poboczne. W 2020 roku gra udostępniona została na komputery osobiste z systemem operacyjnym Microsoft Windows.</p>
     </div>
    </asp:Content>
 
